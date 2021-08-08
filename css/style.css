@@ -1227,9 +1227,9 @@ label {
 }
 
 .video {
-	width: 382px;
+	width: 325px;
 }
-@media (min-width: 481px) {
+@media (min-width: 850px) {
 	.video {
 		width: 800px;
 	}
