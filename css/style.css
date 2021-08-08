@@ -607,9 +607,9 @@ label {
 .container {
 	max-width: 1128px;
 }
-.container-sm {
+/* .container-sm {
 	max-width: 848px;
-}
+} */
 .container .container-sm {
 	max-width: 800px;
 	padding-left: 0;
@@ -1227,7 +1227,13 @@ label {
 }
 
 .video {
-	border-radius: 10px;
+	width: 382px;
+}
+@media (min-width: 481px) {
+	.video {
+		width: 1000px;
+		height: 563px;
+	}
 }
 
 .feature-icon {
