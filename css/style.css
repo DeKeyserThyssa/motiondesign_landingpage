@@ -1093,7 +1093,7 @@ label {
 }
 .hero {
 	position: relative;
-	padding-top: 20px;
+	padding-top: 5px;
 	overflow: hidden;
 }
 .hero-paragraph {
@@ -1231,8 +1231,7 @@ label {
 }
 @media (min-width: 481px) {
 	.video {
-		width: 1400px;
-		height: 563px;
+		width: 800px;
 	}
 }
 
